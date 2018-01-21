@@ -70,23 +70,25 @@ public class MainActivity extends AppCompatActivity {
     private void fillSpacecrafts() {
 
         spacecrafts.clear();
-        spacecrafts.add("Kepler");
-        spacecrafts.add("Casini");
-        spacecrafts.add("Voyager");
+        spacecrafts.add("ripo");
+        spacecrafts.add("rakib");
+        spacecrafts.add("mohhammod");
         spacecrafts.add("New Horizon");
-        spacecrafts.add("James Web");
-        spacecrafts.add("Apollo 15");
-        spacecrafts.add("WMAP");
+        spacecrafts.add(" Web");
+        spacecrafts.add("Apollo ");
+        spacecrafts.add("khan");
         spacecrafts.add("Enterprise");
-        spacecrafts.add("Spitzer");
-        spacecrafts.add("Galileo");
+        spacecrafts.add("joy");
+        spacecrafts.add("nahid");
         spacecrafts.add("Challenger");
-        spacecrafts.add("Atlantis");
-        spacecrafts.add("Apollo 19");
-        spacecrafts.add("Huygens");
-        spacecrafts.add("Hubble");
-        spacecrafts.add("Juno");
-        spacecrafts.add("Aries");
+        spacecrafts.add("akib");
+        spacecrafts.add("adib");
+        spacecrafts.add("jovan");
+        spacecrafts.add("shila");
+        spacecrafts.add("kasem");
+        spacecrafts.add("Argentina");
+        spacecrafts.add("Argentina");
+        spacecrafts.add("Argentina");
         spacecrafts.add("Columbia");
 
         lv.setAdapter(new ArrayAdapter(MainActivity.this,android.R.layout.simple_list_item_1,spacecrafts));
